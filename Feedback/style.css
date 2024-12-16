@@ -1,0 +1,286 @@
+body
+{
+    background-color: black;
+    width: 99.5%;
+    height: 97.5vh;
+}
+@font-face {
+    font-family: myfont;
+    src: url(AllertaStencil-Regular.ttf);
+}
+@font-face
+{
+    font-family: myfont1;
+    src: url(CafeFrancoise_D.otf);
+}
+@font-face {
+    font-family: myfont2;
+    src: url(CenturyGothic.ttf);
+}
+.main
+{
+    
+    padding: 10px 10px;
+}
+
+nav
+{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}
+
+#header
+{
+    color:#a0a0a0;
+    text-align: left;
+    font-size: 50px;
+    font-family: myfont;
+    cursor: pointer;
+    padding-left: 50px;
+}
+
+#header:hover
+{
+    color: whitesmoke;
+}
+nav ul
+{
+    flex: 1;
+    text-align: right;
+    margin-right: 100px;
+
+}
+  
+
+nav ul li
+{
+    list-style: none;
+    display: inline-block;
+    margin: 5px 30px;
+}
+  
+#home
+{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    position: relative;
+    padding: 0px 10px;
+    font-family: 'Poppins', sans-serif;
+    border-color: red;
+    padding-bottom: 7px;
+    border-bottom-style: solid;
+    border-bottom-width: 200%;
+    width: fit-content;
+}
+
+#contact
+{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    position: relative;
+    padding: 0px 10px;
+    font-family: 'Poppins', sans-serif;
+    border-color: red;
+    padding-bottom: 7px;
+    border-bottom-style: solid;
+    border-bottom-width: 200%;
+    width: fit-content;
+}
+
+#about
+{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    position: relative;
+    padding: 0px 10px;
+    font-family: 'Poppins', sans-serif;
+    border-color: red;
+    padding-bottom: 7px;
+    border-bottom-style: solid;
+    border-bottom-width: 200%;
+    width: fit-content;
+}
+
+nav ul li .op
+{
+    text-decoration: none;
+    color:#a0a0a0;
+    font-weight: 700;
+    position: relative;
+    padding: 0px 10px;
+    font-family: 'Poppins', sans-serif;    
+}
+  
+nav ul li .op::after
+{
+    content: "";
+    width: 0;
+    height: 3px;
+    left: 0;
+    bottom: -10px;
+    background: #ff3c78;
+    position: absolute;
+    transition: 0.3s;
+    
+}
+
+nav ul li .op:hover::after
+{
+    width: 100%;
+}
+
+nav ul li .op:hover
+{
+    color: white;
+}
+
+.client
+{
+    padding-top: 125px;
+    padding-left: 8%;
+    display: flex;
+}
+
+.main_container
+{
+    position: relative;
+    width: 25%;
+}
+.square
+{
+    height: 200px;
+    width: 200px;
+    border-radius: 6px;
+    border-color: #ff3c78;
+    background-color:whitesmoke;
+    text-align: center;
+}
+
+p
+{
+    color: black;
+    font-family: myfont1;
+    font-size: 30px;
+    padding-top: 70px;
+}
+
+.overlay
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color:beige;
+    border-radius: 6px;
+    opacity: 100%;
+    overflow: hidden;
+    width: 200px;
+    height: 0;
+    transition: 0.5s;
+}
+
+.b1
+{   
+    font-size: 14px;
+    width: 65%;
+    margin: 67px 37px;
+    padding: 20px 10px;
+    background-color:cadetblue;
+    border-style: double;
+    border-radius: 15px;
+}
+
+.main_container:hover .overlay
+{
+    height: 200px;
+}
+
+.contact
+{
+    margin: 5% 35%;
+    text-align: center;
+    width: 500px;
+    margin: auto;
+    margin-top: 1%;
+    text-align: center;
+    border-radius: 5px;
+    background-color:aliceblue;
+    padding: 50px;
+}
+
+input[type=text], #dob, #email,#tel
+{
+    width: 300px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-size: 15px;
+    font-family: fantasy;
+}
+
+label[for=dob], label[for=email], label[for=tel], label[for=require]
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: black;
+
+}
+
+input[type=submit], #back
+{
+    background-color:rgb(0, 255, 145);
+    color: white;
+    padding: 15px 45px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+input[type=submit]:hover, #back:hover
+{
+    background-color:dodgerblue;
+}
+
+.thank
+{
+    text-align:center;
+    padding-top: 50px;
+    padding-left: 20px;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-color: #f4084f;
+    border-width: 4px;
+    border-radius: 5px;
+    border-style: dashed;
+    
+}
+
+#thankyou
+{
+    font-size: 50px;
+    font-family: myfont2;
+    color: whitesmoke;
+}
+
+#para
+{
+    font-size: 20px;
+    font-family: myfont2;
+    color: whitesmoke;
+    padding-bottom: 50px;
+}

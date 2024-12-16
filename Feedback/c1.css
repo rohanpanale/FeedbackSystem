@@ -1,0 +1,120 @@
+.userbody
+{
+    background-image: url(5.jpg);
+    height: 100%;
+    width: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.det
+{
+    width: 500px;
+    margin: auto;
+    margin-top: 6%;
+    text-align: center;
+    border-radius: 5px;
+    background-color:aliceblue;
+    padding: 50px;
+}
+
+input[type=text], #dob, #email,#tel
+{
+    width: 300px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-size: 15px;
+    font-family: fantasy;
+}
+
+label[for=dob], label[for=email], label[for=tel]
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+
+}
+
+input[type=submit], #back
+{
+    background-color:rgb(0, 255, 145);
+    color: white;
+    padding: 15px 45px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+input[type=submit]:hover, #back:hover
+{
+    background-color:dodgerblue;
+}
+
+.feedback
+{
+    width: 700px;
+    height: fit-content;
+    margin: auto;
+    padding-bottom: 20px;
+    text-align: center;
+    border-style: dotted;
+    border-width: 4px;
+    border-color: black;
+    background-color: darkseagreen;
+}
+
+.question
+{
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.A
+{
+    font-size: 40px;
+    margin-right: 44px;
+}
+
+.option
+{
+    padding-left: 30px;
+}
+.A1
+{
+    margin-right: 77px;
+    width: 18px;
+    height: 18px;
+    
+}
+
+.suggest
+{
+    width: 710px;
+    height: 200px;
+    
+}
+
+textarea
+{
+    font-size: 17px;
+    margin: auto;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.sub
+{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+#submit
+{
+    font-size: 20px;
+    width: 250px;
+}
